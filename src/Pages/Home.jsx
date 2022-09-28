@@ -5,6 +5,8 @@ import SearchFilter from "../Components/SearchFilter";
 import CarList from "../Components/CarList_S";
 import CarListRent from "../Components/CarList_R";
 import ShowRoom from "../Components/ShowRomms";
+import WeDo from "../Components/WeDo";
+
 
 const Home = () => {
   return (
@@ -14,6 +16,7 @@ const Home = () => {
       <CarList />
       <CarListRent />
       <ShowRoom />
+      <WeDo />
     </Container>
   );
 };
