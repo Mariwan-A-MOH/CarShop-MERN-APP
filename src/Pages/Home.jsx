@@ -4,6 +4,7 @@ import Hero from "../Components/Hero";
 import SearchFilter from "../Components/SearchFilter";
 import CarList from "../Components/CarList_S";
 import CarListRent from "../Components/CarList_R";
+import ShowRoom from "../Components/ShowRomms";
 
 const Home = () => {
   return (
@@ -12,6 +13,7 @@ const Home = () => {
       <SearchFilter />
       <CarList />
       <CarListRent />
+      <ShowRoom />
     </Container>
   );
 };
